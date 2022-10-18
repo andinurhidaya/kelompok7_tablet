@@ -22,6 +22,7 @@ void handleResize(int w, int h)
                                                              // kalau mau gambar besar kasih kecil dari angka 50.5
 }
 float _angle = -50.0f;
+//Sumiartin
 // Draws the 3D scene
 void drawScene()
 {
