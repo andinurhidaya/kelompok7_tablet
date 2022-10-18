@@ -85,6 +85,7 @@ void drawScene()
     glVertex3f(0.9f, 3.5f, -2.0f);
     glVertex3f(0.9f, 3.5f, -1.8f);
     glVertex3f(0.9f, 0.2f, -1.8f);
+    // Taufik Hidayat
     // atas
     glVertex3f(-0.9f, 3.5f, -2.0f);
     glVertex3f(-0.9f, 3.5f, -1.8f);
