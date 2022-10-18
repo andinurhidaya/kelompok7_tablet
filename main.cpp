@@ -118,7 +118,7 @@ void update(int value)
     glutPostRedisplay();
     glutTimerFunc(25, update, 0); // kalau mau kasih cepat berputar kasih turun angkanya yg 25 kalau mau perlamabat ya sebaliknya
 }
-// Laode Yunus Abdillah Sandi
+// Laode Yunus Abdillah Sandii
 int main(int argc, char **argv)
 {
     // Initialize GLUT
