@@ -94,6 +94,12 @@
      glVertex3f(0.9f, 3.45f, -1.75f);
      glVertex3f(-0.9f, 3.45f, -1.75f);
      //Wilda Aryani
+      //layar 2
+     glColor3f(2,2,2);//WARNA BGIAN LAYAR
+     glVertex3f(-0.8f, 0.5f, -1.73f);
+     glVertex3f(0.8f, 0.5f, -1.73f);
+     glVertex3f(0.8f, 3.2f, -1.73f);
+     glVertex3f(-0.8f, 3.2f, -1.73f);
    
     
 
