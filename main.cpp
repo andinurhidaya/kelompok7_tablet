@@ -29,6 +29,7 @@
      //Add ambient light
      GLfloat ambientColor[] = {0.2f, 0.2f, 0.2f, 1.0f}; //Color (0.2, 0.2, 0.2)
      glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambientColor);
+     //Reza Wardani
      //Add positioned light
      GLfloat lightColor0[] = {0.5f, 0.5f, 0.5f, 1.0f}; //Color (0.5, 0.5, 0.5)
      GLfloat lightPos0[] = {0.0f, -8.0f, 8.0f, 1.0f}; //Positioned at (4, 0, 8)
@@ -92,6 +93,7 @@
      glVertex3f(0.9f, 0.25f, -1.75f);
      glVertex3f(0.9f, 3.45f, -1.75f);
      glVertex3f(-0.9f, 3.45f, -1.75f);
+    //Wilda Aryani
     //layar 2
      glColor3f(2,2,2);//WARNA BGIAN LAYAR
      glVertex3f(-0.8f, 0.5f, -1.73f);
