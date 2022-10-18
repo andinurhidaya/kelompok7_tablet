@@ -121,7 +121,10 @@ void update(int value)
 // Laode Yunus Abdillah Sandi
 int main(int argc, char **argv)
 {
-
+    // Initialize GLUT
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+    glutInitWindowSize(600, 600);
     // Create the window
     glutCreateWindow("Lighting");
     initRendering();
