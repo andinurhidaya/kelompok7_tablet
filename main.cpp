@@ -62,6 +62,7 @@ void drawScene()
 
     glColor3f(1.1f, 1.1f, 1.1f);
     glBegin(GL_QUADS);
+    //Rizky Prasetya Ardana
     // front depan atas
     glColor3f(1.1f, 1.1f, 1.1f); // kalau mau ganti warna belakang tablet  ganti disinigl Hijau -> glColor3f (0.0,1.0,0.0);
     // glNormal3f(-1.0f, 0.0f, 0.0f);
