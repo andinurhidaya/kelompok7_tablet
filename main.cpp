@@ -2,6 +2,7 @@
 #include <GL/glut.h> //komen
 #include <GL/glut.h> //bismillah
 
+//Muh. Thariq Fayiz Syahputra A
 // Initializes 3D rendering (memberikan inisialisai 3D)
 void initRendering()
 {
@@ -76,6 +77,7 @@ void drawScene()
     glVertex3f(0.9f, 0.2f, -2.0f);
     glVertex3f(0.9f, 3.5f, -2.0f);
     glVertex3f(-0.9f, 3.5f, -2.0f);
+    //Andi Nur Hidayah
     // samping kiri atas
     //  glNormal3f(-1.0f, 0.0f, 0.0f);
     glVertex3f(-0.f, 0.2f, -2.0f);
