@@ -96,7 +96,7 @@ void drawScene()
     glVertex3f(0.9f, 3.5f, -1.8f);
     glVertex3f(0.9f, 3.5f, -2.0f);
     // layar 1
-    glColor3f(0, 0, 0); // WARNA BGIAN LAYAR
+    glColor3f(1, 2, 2); // WARNA BGIAN LAYAR
     glVertex3f(-0.9f, 0.25f, -1.75f);
     glVertex3f(0.9f, 0.25f, -1.75f);
     glVertex3f(0.9f, 3.45f, -1.75f);
