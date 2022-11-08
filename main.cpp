@@ -28,6 +28,7 @@ float _angle = -50.0f;
 void drawScene()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClearColor(0,0.,0,1);
     glMatrixMode(GL_MODELVIEW); // keep it like this
     glLoadIdentity();
     glTranslatef(0.0f, 0.0f, -14.0f);
@@ -96,7 +97,7 @@ void drawScene()
     glVertex3f(0.9f, 3.5f, -1.8f);
     glVertex3f(0.9f, 3.5f, -2.0f);
     // layar 1
-    glColor3f(1, 2, 2); // WARNA BGIAN LAYAR
+    glColor3f(0, 0, 0); // WARNA BGIAN LAYAR
     glVertex3f(-0.9f, 0.25f, -1.75f);
     glVertex3f(0.9f, 0.25f, -1.75f);
     glVertex3f(0.9f, 3.45f, -1.75f);
@@ -139,10 +140,4 @@ int main(int argc, char **argv)
     update(0);
     glutMainLoop();
     return 0;
-    //ttn
-    //bocahhh
-    //sumiartin
-    //titin
-}//cekkk
-//dua
-//empat
+}
